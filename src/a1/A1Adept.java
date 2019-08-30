@@ -13,7 +13,7 @@ public class A1Adept {
 		// Your code follows here.
 		
 		int numItems = scan.nextInt();
-		DecimalFormat format = new DecimalFormat("##.00");
+		DecimalFormat format = new DecimalFormat("#0.00");
 		
 		String[] itemNames = new String[numItems];
 		Double[] itemPrices = new Double[numItems];
@@ -28,7 +28,6 @@ public class A1Adept {
 			
 		}
 		
-		System.out.println(itemNames);
 		int numCustomers = scan.nextInt();
 		
 		String[] customerNames = new String[numCustomers];

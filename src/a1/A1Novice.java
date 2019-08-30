@@ -11,7 +11,7 @@ public class A1Novice {
 
 		// Your code follows here.
 		
-		DecimalFormat format = new DecimalFormat("##.00");
+		DecimalFormat format = new DecimalFormat("#0.00");
 		int totalCustomers = scan.nextInt();
 		
 		for (int i = 0; i < totalCustomers; i++) {
